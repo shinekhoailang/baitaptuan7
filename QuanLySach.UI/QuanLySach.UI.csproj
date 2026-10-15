@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <RootNamespace>QuanLySach.UI</RootNamespace>
+    <AssemblyName>QuanLySach.UI</AssemblyName>
+    <NoWarn>$(NoWarn);CS8600;CS8601;CS8602;CS8604;CS8622</NoWarn>
+  </PropertyGroup>
+
+  <!-- UI chỉ tham chiếu BLL (không tham chiếu trực tiếp DAL) -->
+  <ItemGroup>
+    <ProjectReference Include="..\QuanLySach.BLL\QuanLySach.BLL.csproj" />
+  </ItemGroup>
+
+</Project>

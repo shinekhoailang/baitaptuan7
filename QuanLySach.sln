@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLySach.UI", "QuanLySach.UI\QuanLySach.UI.csproj", "{2D334ADA-C453-44EA-BA01-9C8084C5DFAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLySach.BLL", "QuanLySach.BLL\QuanLySach.BLL.csproj", "{E2042ED0-D9AA-46DC-9D3C-EF37659E4E05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLySach.DAL", "QuanLySach.DAL\QuanLySach.DAL.csproj", "{D5850D41-4F7C-49C5-A702-D948EF91B89B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D334ADA-C453-44EA-BA01-9C8084C5DFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D334ADA-C453-44EA-BA01-9C8084C5DFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D334ADA-C453-44EA-BA01-9C8084C5DFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D334ADA-C453-44EA-BA01-9C8084C5DFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2042ED0-D9AA-46DC-9D3C-EF37659E4E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2042ED0-D9AA-46DC-9D3C-EF37659E4E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2042ED0-D9AA-46DC-9D3C-EF37659E4E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2042ED0-D9AA-46DC-9D3C-EF37659E4E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5850D41-4F7C-49C5-A702-D948EF91B89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5850D41-4F7C-49C5-A702-D948EF91B89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5850D41-4F7C-49C5-A702-D948EF91B89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5850D41-4F7C-49C5-A702-D948EF91B89B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
